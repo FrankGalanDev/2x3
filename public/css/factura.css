@@ -1,0 +1,196 @@
+/*----------------------FACTURA---------------------------*/
+.control-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: #009688;
+    color: white;
+    line-height: 2rem;
+    height: 4rem
+}
+
+
+.logoholder, .me, .info, .bank, {
+
+    vertical-align: top;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 1rem;
+    min-height: 2px;
+
+}
+
+.control-bar .slogan {
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 2rem
+}
+
+.control-bar label {
+    margin-right: 1rem
+}
+
+.control-bar a {
+    margin: 0;
+    padding: .5em 1em;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.control-bar a:hover {
+    background: #fff
+}
+
+.control-bar input {
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: .5rem 0;
+    max-width: 30px;
+    text-align: center
+}
+
+.control-bar input:hover {
+    background: rgba(255, 255, 255, 0.3)
+}
+.logo {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    border: none;
+    fill: #009688
+}
+
+.logoholder {
+    width: 14%
+}
+
+.me {
+    width: 100%
+}
+
+.info {
+    width: 30%
+}
+
+.bank {
+    width: 26%
+}
+.subt_sup{
+  display: inline-block;
+}
+
+.menu_sup{
+  display: flex !important;
+  font-size: 0.8rem;
+}
+.tabla_datos{
+  font-size: 1rem !important;
+}
+
+.linea_fact{
+  font-size: 1.1rem;
+  display: table-row;
+  line-height: 2rem;
+  border: 2px solid #009688;
+}
+.inp_fact {
+  border: none !important;
+}
+.inp_precTot {
+  border: none;
+  color: #009688;
+  font-size: 1.7rem;
+  margin-right: 0;
+  width: 120px;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+td,
+th {
+    padding: 0
+}
+
+html {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000;
+    background: #ddd;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 6rem auto 0;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #aaa;
+    padding: 2rem
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+
+
+.group:after,
+.row:after,
+.invoicelist-footer:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+a {
+    color: #009688;
+    text-decoration: none
+}
+
+p {
+    margin: 0
+}
+
+
+.invoicelist-footer {
+    margin: 1rem
+}
+
+.invoicelist-footer table {
+    float: right;
+    width: 25%
+}
+
+.invoicelist-footer table td {
+    padding: 1rem 2rem 0 1rem;
+    text-align: right
+}
+
+.invoicelist-footer table tr:nth-child(2) td {
+    padding-top: 0
+}
+
+.invoicelist-footer table #total_price {
+    font-size: 2rem;
+    color: #009688
+}
+
+/*----------Factura----------------------------------------*/
